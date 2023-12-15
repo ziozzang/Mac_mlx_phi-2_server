@@ -3,7 +3,7 @@
 # Disclaimer
 - WARNING: this code is just for Fun, toy test code!
 
-1. There's no acclerated way to run phi-2 model on Mac except using MLX.
+1. There's no acclerated way to run phi-2 model on Mac except using MLX. pytorch using MPS is slow to run/play. but MLX is fast enough to.
 2. llama.cpp is not yet support to run phi-2. =(
 3. so, this is some toy code to run. =)
 
@@ -35,6 +35,9 @@ curl http://localhost:5000/v1/chat/completions \
      "temperature": 0.5
    }'
 ```
+
+# Issue
+- Need to change prompt to get better inference. this is just test. any pull-requests are welcome!
 
 ----
 
