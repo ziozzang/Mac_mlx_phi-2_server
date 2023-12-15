@@ -1,9 +1,20 @@
 # Mac_mlx_phi-2_server
-Test server code for Phi-2 model. support OpenAI API spec. using MacOSX system.
+
+# Disclaimer
+- WARNING: this code is just for Fun, toy test code!
+
+1. There's no acclerated way to run phi-2 model on Mac except using MLX.
+2. llama.cpp is not yet support to run phi-2. =(
+3. so, this is some toy code to run. =)
 
 Original inference codes are came from https://github.com/ml-explore/mlx-examples/tree/main/phi2
 
+# Feature
+Test server code for Phi-2 model. support OpenAI API spec. using MacOSX system.
+
 you can use same api with OpenAI API spec.
+
+# How to use?
 
 ```
 # Install requirements
