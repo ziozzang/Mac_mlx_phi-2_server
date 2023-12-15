@@ -1,0 +1,6 @@
+einops
+mlx
+numpy
+transformers
+torch
+flask
